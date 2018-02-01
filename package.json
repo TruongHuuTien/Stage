@@ -1,15 +1,16 @@
 {
-  "name": "stage",
+  "name": "stage-canvas",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "stage.js",
   "scripts": {
+    "test": "null"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TruongHuuTien/stage.git"
   },
-  "author": "Huu-Tien TRUONG",
+  "author": "truonghuutien",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TruongHuuTien/stage/issues"
