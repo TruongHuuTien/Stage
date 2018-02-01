@@ -4,7 +4,7 @@
   "description": "",
   "main": "stage.js",
   "scripts": {
-    "test": "null"
+    "build": "babel src -d build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/TruongHuuTien/stage/issues"
   },
-  "homepage": "https://github.com/TruongHuuTien/stage#readme"
+  "homepage": "https://github.com/TruongHuuTien/stage#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
