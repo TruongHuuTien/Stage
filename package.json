@@ -1,6 +1,6 @@
 {
-  "name": "stage-canvas",
-  "version": "0.1.1",
+  "name": "stage",
+  "version": "1.0.0",
   "description": "",
   "main": "stage.js",
   "scripts": {
