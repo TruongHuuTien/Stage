@@ -3,8 +3,8 @@
 
 button {
   @include flexbox();
-  background-color: $color-snow-cold;
-  border-color: rgba($color-snow-cold-dark, 0.4);
+  background-color: $color-snow;
+  border-color: rgba($color-snow-dark, 0.4);
   color: $color-anthracite;
   height: 4rem;
   line-height: 2rem;
@@ -15,7 +15,7 @@ button {
 
   &:hover {
     background-color: $color-snow;
-    border-color: rgba($color-snow-dark-2, 1);
+    border-color: rgba($color-snow-dark, 1);
   }
 
   /* Icon */
