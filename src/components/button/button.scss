@@ -1,0 +1,32 @@
+@import '../../mixins';
+@import '../../color';
+
+button {
+  @include flexbox();
+  background-color: $color-snow-cold;
+  border-color: rgba($color-snow-cold-dark, 0.4);
+  color: $color-anthracite;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem 2rem;
+  min-width: 4rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-snow;
+    border-color: rgba($color-snow-dark-2, 1);
+  }
+
+  /* Icon */
+  &.btn-icon {
+    width: 4rem;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  &:not(.btn-icon) {
+    .icon {
+      margin-right: 1rem;
+    }
+  }
+}

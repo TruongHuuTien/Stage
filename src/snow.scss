@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import "../node_modules/normalize-scss/sass/normalize";
+$base-font-family: 'Lato', 'Helvetica-Light';
+@include normalize();
+
+// Snow used a grid of 8px;
+$pixel-grid: 8px;
+
+html {
+  font-size: $pixel-grid;
+}
+
+body {
+  font-size: 2rem;
+}

@@ -1,0 +1,7 @@
+.App {
+  margin: 40px;
+
+  & > * {
+    margin: 1rem 0;
+  }
+}
